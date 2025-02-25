@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GobiPhone - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>GobiPhone</h1>
+        <button id="Mode">Mode Gelap</button>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Kontak Kami</h2>
+        <p>Alamat: Bogor</p>
+        <form id="contactForm">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Pesan:</label>
+            <textarea class="message1" id="message" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+        <p id="formMessage"></p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
